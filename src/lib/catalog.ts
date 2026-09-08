@@ -210,7 +210,7 @@ export const designs: Design[] = [
         key: "home",
         label: "الرئيسية",
         sections: [
-          { type: "hero", title: "FADE باربر", sum: "", sub: "حلاقة كلاسيك وحديثة على إيد محترفين", cta: "احجز دورك" } as Section,
+          { type: "hero", title: "FADE باربر", sub: "حلاقة كلاسيك وحديثة على إيد محترفين", cta: "احجز دورك" },
           { type: "gallery", title: "شغلنا" },
         ],
       },
