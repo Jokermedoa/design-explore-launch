@@ -26,7 +26,7 @@ export const Route = createFileRoute("/design/$designId")({
     if (!design) throw notFound();
     return { design };
   },
-  component: DesignPage;
+  component: DesignPage,
 });
 
 function DesignPage() {
